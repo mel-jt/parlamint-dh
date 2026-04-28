@@ -8,6 +8,7 @@ DATA_DIR = "./data"
 OUTPUT_DIR = "./output"
 LANGUAGES = ["en", "es", "fr", "tr"]
 
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 for lang in LANGUAGES:
     lang_dir = os.path.join(DATA_DIR, lang)
