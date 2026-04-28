@@ -1,1 +1,3 @@
-# parlamint-dh
+# Digital humanities project
+
+Authors: Bersun, María, Inés
